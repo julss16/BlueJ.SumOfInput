@@ -8,13 +8,17 @@ public class Main {
 
     public static void main(String[] args){
         Scanner game = new Scanner (System.in);
-        int guess, sum;
         System.out.println("Hello! Type a number");
-        guess = game.nextInt();
-        sum = guess + 1;
+        int n = game.nextInt();
+        int sum = 0;
         
-        System.out.println(sum);
+       for (int i= 1; i <=n; i++) {
         
-
-    }
+        
+       sum = sum + i; 
+       
+} 
+System.out.println(sum); 
 }
+}
+
